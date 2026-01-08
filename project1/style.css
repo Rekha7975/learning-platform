@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-family: "Comic Sans MS", Arial, sans-serif;
+    background-image: url("background.jpg");
+    background-size: cover;
+}
+
+/* Header */
+header {
+    background-color: rgba(255, 153, 51, 0.95);
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+/* Buttons */
+.btn {
+    text-decoration: none;
+    padding: 12px 22px;
+    margin: 6px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 30px;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color: #388E3C;
+}
+
+/* Content */
+.content {
+    background-color: rgba(255, 255, 255, 0.95);
+    margin: 20px;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+/* Cards */
+.card {
+    background-color: #FFEB3B;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+/* Small Buttons */
+.small-btn {
+    margin-left: 10px;
+    padding: 6px 14px;
+    border: none;
+    border-radius: 15px;
+    background-color: #03A9F4;
+    color: white;
+    cursor: pointer;
+}
+
+.small-btn:hover {
+    background-color: #0288D1;
+}
+
+/* Lists */
+.video-list li,
+.book-list li {
+    font-size: 18px;
+    margin: 12px 0;
+}
+
+.video-list a,
+.book-list a {
+    margin-left: 10px;
+    font-weight: bold;
+    color: #2196F3;
+}
+
+/* Today Class */
+.today-class {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #E91E63;
+}
+
+/* Footer */
+footer {
+    background-color: #FF7043;
+    color: white;
+    text-align: center;
+    padding: 12px;
+}
