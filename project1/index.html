@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Study App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>📘 Smart Study App</h1>
+    <p>Learn • Play • Grow 🌈</p>
+
+    <nav>
+        <a href="index.html" class="btn">📚 Sessions</a>
+        <a href="tutorials.html" class="btn">🎥 Videos</a>
+        <a href="books.html" class="btn">📖 Books</a>
+    </nav>
+</header>
+
+<section class="content">
+    <h2>✨ Learning Sessions</h2>
+
+    <div class="card">
+        🔤 English Basics
+        <button class="small-btn" onclick="markLearned('English')">Done</button>
+    </div>
+
+    <div class="card">
+        ➕ Fun Mathematics
+        <button class="small-btn" onclick="markLearned('Math')">Done</button>
+    </div>
+
+    <div class="card">
+        🧪 Science Experiments
+        <button class="small-btn" onclick="markLearned('Science')">Done</button>
+    </div>
+
+    <div class="card">
+        💻 Computer Basics
+        <button class="small-btn" onclick="markLearned('Computer')">Done</button>
+    </div>
+
+    <p id="progress">⭐ Lessons Learned: 0</p>
+
+    <!-- FIXED TODAY CLASS OUTPUT -->
+    <p id="todayClass" class="today-class"></p>
+
+    <button class="btn" onclick="changeTheme()">🎨 Fun Color Mode</button>
+    <button class="btn" onclick="showTodayClass()">📅 Today’s Class</button>
+</section>
+
+<footer>
+    <p>© 2026 Smart Study App 🌟</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
